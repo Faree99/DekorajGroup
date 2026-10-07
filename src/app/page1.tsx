@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { HeroJourney } from "@/components/hero-journey";
 import {
-  Ecosystem,
+  // Ecosystem,
   InsideSystem,
   IntentRouter,
   Process,
@@ -108,7 +108,7 @@ export default function Home() {
         ))}
       </div>
       <InsideSystem />
-      <Ecosystem />
+      {/* <Ecosystem /> */}
       <IntentRouter />
       <section className="mart-preview wrap">
         <div className="section-heading">
